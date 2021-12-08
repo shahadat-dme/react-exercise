@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
+import AsyncHooks1 from './hooks/Async/AsyncHooks1';
+// import UseAsyncHook from './hooks/Async/useAsyncHook';
 
-import ReducerWithUseState from './hooks/Reducer/ReducerWithUseState';
-// import ReducerWithUseReducer from './hooks/Reducer/ReducerWithUseReducer';
-// import Uncontrolled2 from './forms/Uncontrolled2';
-// import Controlled2 from './forms/Controlled2';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Controlled2/> */}
-      {/* <Uncontrolled2/> */}
-      {/* <ReducerWithUseReducer/> */}
-      <ReducerWithUseState/>
+      {/* <UseAsyncHook/> */}
+      <AsyncHooks1/>
     </div>
   );
 }
