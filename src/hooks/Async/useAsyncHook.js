@@ -1,8 +1,8 @@
-import React from "react";
+import React,{ useState } from "react";
 
 function useAsyncHook(searchBook) {
-    const [result, setResult] = React.useState([]);
-    const [loading, setLoading] = React.useState("false");
+    const [result, setResult] = useState([]);
+    const [loading, setLoading] = useState("false");
   
     React.useEffect(() => {
       async function fetchBookList() {

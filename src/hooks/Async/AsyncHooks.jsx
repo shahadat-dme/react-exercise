@@ -1,7 +1,7 @@
 import React from "react";
 import useAsyncHook  from './useAsyncHook'
 
-function AsyncHooks1() {
+function AsyncHooks() {
     const [search, setSearch] = React.useState("");
     const [query, setQuery] = React.useState("");
     const [result, loading] = useAsyncHook(query);
@@ -30,4 +30,4 @@ function AsyncHooks1() {
         )}
       </div>
     );
-  }export default AsyncHooks1;
+  }export default AsyncHooks;

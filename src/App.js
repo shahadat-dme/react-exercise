@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
-import AsyncHooks1 from './hooks/Async/AsyncHooks1';
-// import UseAsyncHook from './hooks/Async/useAsyncHook';
+import ArrowFunction from './es6/ArrowFunction';
+import ArrowSingleLine2 from './es6/ArrowSingleLine2';
+import ClassComponents from './es6/ClassComponents';
+import FunctionComponents from './es6/FunctionComponents';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <UseAsyncHook/> */}
-      <AsyncHooks1/>
+      <ClassComponents/>
+      <FunctionComponents/>
+      <ArrowFunction/>
+      <ArrowSingleLine2/>
     </div>
   );
 }
