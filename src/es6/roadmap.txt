@@ -1,0 +1,7 @@
+1. Class
+2. Arrow Function
+3. Map (Array)
+4. Destucturing
+5. Modules
+6. Spread Operator
+7. Ternary Operator

@@ -6,4 +6,4 @@ function FunctionComponents() {
     )
 }
 
-export default FunctionComponents
+export default FunctionComponents;
