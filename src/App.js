@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Ref from './hooks/Ref/Ref';
+import RefInput from './hooks/Ref/RefInput';
+// import Ref from './hooks/Ref/Ref';
 
 
 
@@ -8,7 +9,8 @@ import Ref from './hooks/Ref/Ref';
 function App() {  
   return (
     <div className="App">
-      <Ref/>
+      {/* <Ref/> */}
+      <RefInput/>
     </div>
   );
 }

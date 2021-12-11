@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import './ref.module.css'
+
 function Ref() {
   const [randomInput, setRandomInput] = useState('');
   const [seconds, setSeconds] = useState(0);
