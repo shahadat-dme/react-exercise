@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import RefInput from './hooks/Ref/RefInput';
-// import Ref from './hooks/Ref/Ref';
+import Register from './form-reg/Register';
+
 
 
 
@@ -9,8 +9,7 @@ import RefInput from './hooks/Ref/RefInput';
 function App() {  
   return (
     <div className="App">
-      {/* <Ref/> */}
-      <RefInput/>
+      <Register/>
     </div>
   );
 }

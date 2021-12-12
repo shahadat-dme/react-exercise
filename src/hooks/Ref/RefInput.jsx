@@ -13,7 +13,7 @@ export default function RefInput() {
         <input
         ref={renders}
         type="text"
-        value={randomInput}
+        // value={randomInput}
         placeholder="Random Input"
         onChange={handleChange}
       />
