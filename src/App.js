@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Register from './form-reg/Register';
+import MyComponentClass from './hooks/effect/MyComponentClass';
+
 
 
 
@@ -9,7 +10,7 @@ import Register from './form-reg/Register';
 function App() {  
   return (
     <div className="App">
-      <Register/>
+      <MyComponentClass/>
     </div>
   );
 }
