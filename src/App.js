@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MyComponentClass from './hooks/effect/MyComponentClass';
+import MyComponentFunction from './hooks/effect/MyComponentFunction';
 
 
 
@@ -8,9 +8,10 @@ import MyComponentClass from './hooks/effect/MyComponentClass';
 
 
 function App() {  
+
   return (
     <div className="App">
-      <MyComponentClass/>
+      <MyComponentFunction/>
     </div>
   );
 }

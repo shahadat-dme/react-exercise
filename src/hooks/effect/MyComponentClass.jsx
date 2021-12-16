@@ -9,14 +9,16 @@ export class MyComponentClass extends Component {
     componentDidMount(){
         const { count } = this.state;
         document.title = `Clicked ${count} times`;
-        setInterval(this.tick, 1000)
+        this.interval =  setInterval(this.tick, 1000)
     }
 
     componentDidUpdate(){
         const { count } = this.state;
         document.title = `Clicked ${count} times`
     }
-
+    componentWillUnmount(){
+        clearInterval(this.interval)
+    }
     addClick = () => {
         this.setState(({ count }) => ({
             count: count + 1,
