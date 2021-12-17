@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import MyComponentFunction from './hooks/effect/MyComponentFunction';
-
-
+import Fetch from './hooks/effect-fetch/Fetch';
+import Fetch2 from './hooks/effect-fetch/Fetch2';
 
 
 
@@ -11,7 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <MyComponentFunction/>
+      <Fetch/>
+      <Fetch2/>
     </div>
   );
 }
